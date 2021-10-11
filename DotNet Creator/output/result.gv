@@ -1,0 +1,10 @@
+digraph SampleGraph {
+	firstnode -> childnode1
+	firstnode -> childnode2
+	firstnode -> childnode3
+	firstnode [color="green"]
+	childnode2 -> childnode21
+	childnode2 -> childnode22
+	childnode3 -> childnode31
+	childnode2 [color="red"] 
+}
